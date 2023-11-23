@@ -8,7 +8,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #4f4f4f
+    background-color: #b2b2b2;
 }
 
 #top-bar {
@@ -22,7 +22,46 @@ align-contents: space-between;
 #image-logo{
     position: relative;
     z-index:1;
-    image-size: 20%
-    width:%;
-    opacity: 2
+    image-size: 200%
+    
 }
+
+#tech{
+    background-color:#b2b2b2;
+    width: 500
+    }
+
+    #container {
+        overflow: hidden;
+        white-space: nowrap;
+        position: relative;
+        width: 100%;
+        height: 50px;
+    }
+
+    #text {
+        position: absolute;
+        animation: marquee 30s linear infinite;
+      }
+
+      #text1 {
+        position: absolute;
+        animation: marquee 30s linear infinite;
+      }
+
+      #text2 {
+        position: absolute;
+        animation: marquee 30s linear infinite;
+      }
+      
+  
+       @keyframes marquee {
+        from { left: 90%; }
+        to { left: -90%; }
+      }
+   
+
+T - Technological
+E - Expertise and
+C - Cybersecurity
+K - Knowledge
