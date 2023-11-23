@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #4f4f4f
+}
+
+#top-bar {
+background-color: #6f6f;
+color: #fff;
+text-align: center;
+padding: 1em 0;
+align-contents: space-between;
+}
+
+#image-logo{
+    position: relative;
+    z-index:1;
+    image-size: 20%
+    width:%;
+    opacity: 2
+}
