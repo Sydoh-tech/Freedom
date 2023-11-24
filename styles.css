@@ -19,6 +19,10 @@ padding: 1em 0;
 align-contents: space-between;
 }
 
+#letter1{
+    
+}
+
 #image-logo{
     position: relative;
     z-index:1;
@@ -26,9 +30,18 @@ align-contents: space-between;
     
 }
 
+b{
+    color:#fff
+}
+
+#know{
+color:#fff666
+}
+
 #tech{
     background-color:#b2b2b2;
-    width: 500
+    width: 500;
+    text-align: center;
     }
 
     #container {
